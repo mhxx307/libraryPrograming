@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1597926875 source:c:\users\sonz\documents\laptrinh\thuviencuatoi\main.cpp
+	"thuviencuatoi.h"
+
+1597926834 c:\users\sonz\documents\laptrinh\thuviencuatoi\thuviencuatoi.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<iostream>
+
+1597926945 source:c:\users\sonz\documents\laptrinh\thuviencuatoi\thuviencuatoi.cpp
+	"thuviencuatoi.h"
+

@@ -26,3 +26,6 @@ void xoa_khoang_trang_cuoi(char s[]);
 
 //chuyen ki tu thanh so nguyen
 int Chuyen_Doi(char s[]);
+
+//ham kiem tra so nguyen to
+bool kiem_tra_so_nguyen_to(int n);

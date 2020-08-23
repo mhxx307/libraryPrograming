@@ -87,3 +87,37 @@ int Chuyen_Doi(char s[])
     }
     return sum;
 }
+
+//Ham kiem tra so nguyen to
+bool kiem_tra_so_nguyen_to(int n)
+{
+    if (n < 2)
+    {
+        return false;
+    }
+    else
+    {
+        if(n == 2)
+        {
+            return true;
+        }
+        else
+        {
+            if(n % 2 == 0)
+            {
+                return false;
+            }
+            else
+            {
+                for (int i = 2; i < n; i++)
+                {
+                    if (n % i == 0)
+                    {
+                        return false;
+                    }
+                }
+            }
+        }
+    }
+    return true;
+}
